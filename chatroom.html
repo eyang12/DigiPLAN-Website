@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DigiPLAN</title>
+    <link rel="stylesheet" href="assignment.css">
+    <script src="assignment.js"></script>
+</head>
+
+<!--Navigation bar-->
+<div class="navbar">
+    <a href="https://webpages.uncc.edu/eyang12/Exercise/Assignment/home.html">Home Page</a>
+    <a href="https://webpages.uncc.edu/eyang12/Exercise/Assignment/calendar.html">Event Calendar</a>
+    <a href="https://webpages.uncc.edu/eyang12/Exercise/Assignment/chatroom.html">Chatroom</a>
+    <a href="https://webpages.uncc.edu/eyang12/Exercise/Assignment/about.html">About Us</a>
+    <a href="https://webpages.uncc.edu/eyang12/Exercise/Assignment/help.html">Help and Support</a>
+    <a href="https://webpages.uncc.edu/eyang12/Exercise/Assignment/signin.html">Sign Out</a>
+</div>
+
+<!--Can enter texts and communicate-->
+<h2>Chat with others! Be nice.</h2>
+
+<img src="imgs/chat.gif" height="200" width="200"><br>
+
+<body class="span">
+    <label id="chat" class="borders"></label>
+</body>
+
+<!--The chatbox will refresh and append the message to the existing string-->
+<form id="textChat" action="#">
+    <label class="bold">Enter text:</label>
+    <input type="text" id="textbox" value="">
+    <label>&nbsp;</label>
+    <button type="button" id="send" onclick="updateChat()">Send</button><br>
+</form>
+
+</html>

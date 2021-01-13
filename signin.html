@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DigiPLAN</title>
+    <link rel="stylesheet" href="assignment.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="assignment.js"></script>
+</head>
+
+<body>
+    <h2>Welcome to DigiPLAN, a place to plan events from anywhere, anytime!</h2>
+    <img src="imgs/calendar.png" height="200" width="200"><br>
+    <h4>To get started, please sign-in.</h4>
+    <label class="inMid">For this, please enter 'admin' for both fields.</label><br>
+
+    <!--Submit form, will look for correct user/pass else alert will ring -->
+    <form id="signin" action="https://webpages.uncc.edu/eyang12/Exercise/Assignment/home.html">
+        <label>Username:</label>
+        <input type="text" id="username" value="" placeholder="username"><br>
+        <label></label><br>
+        <label>Password:</label>
+        <input type="password" id="password" value="" placeholder="password"><br>
+        <label></label><br>
+        <input type="submit" value="Login" onclick="verify()"><br>
+        <label></label><br>
+    </form>
+</body>
+</html>

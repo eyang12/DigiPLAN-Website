@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    border: 1px solid greenyellow;
+    border: 3px solid green;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h3 {
+    display: block;
+    width: 750px;
+    text-align: center;
+    font-size: 1.17em;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid green;
+}
+
+label {
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.inMid {
+    vertical-align: middle;
+}
+
+.abt {
+    background-color: lightgreen;
+    border: 3px solid black;
+    width:auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.border {
+    display: inline-block;
+    margin: 5px;
+    border: 3px solid black;
+}
+
+.squared {
+   display: inline-block;
+    margin: 5px;
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+}
+
+.borders {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid greenyellow;
+    border: 3px solid green;
+    text-align: left;
+    width: 500px;
+    font-size: 16px;
+}
+
+.borders2 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid green;
+    text-align: left;
+    width: 500px;
+    font-size: 16px;
+    background-color: green;
+}
+
+.resize {
+    display: inline-block;
+    margin: 5px;
+    height: 42%;
+    width: 42%;
+    align-content: center;
+}
+
+em {
+    background-color: green;
+    color: white;
+}
+
+.slideshow {
+    display: inline-block;
+    margin: 5px;
+    align-content: center;
+}
+
+p {
+    padding-bottom: .5em;
+}
+
+.text {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 750px;
+    background-color: white;
+    border: 1px solid greenyellow;
+    border: 3px solid green;
+}
+
+.span {
+    width: auto;
+}
+
+.navbar {
+    background-color: green;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: lightgreen;
+    color: black;
+}

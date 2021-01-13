@@ -1,0 +1,20 @@
+{"VIPlist":[
+  {
+    "name": "Eddie Beck",
+    "image": "imgs/person0.jpg",
+    "department": "Developer",
+    "desc": "Head of DigiPLAN's back-end development team"
+  },
+  {
+    "name": "Phillip Patterson",
+    "image": "imgs/person1.jpg",
+    "department": "Marketing",
+    "desc": "Head of DigiPLAN's marketing team"
+  },
+  {
+    "name": "Kelly Law",
+    "image": "imgs/person2.jpg",
+    "department": "Developer",
+    "desc": "Head of DigiPLAN's front-end development team"
+  }
+]}
